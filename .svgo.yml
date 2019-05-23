@@ -1,0 +1,7 @@
+plugins:
+  # to prevent <clip-path> deleting
+  - cleanupIDs: false
+  - removeUnknownsAndDefaults: false
+
+  # to prevent converting <polygon points="..."> to <path d="...">
+  - convertShapeToPath: false

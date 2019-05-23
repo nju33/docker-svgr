@@ -1,11 +1,17 @@
 {
   "private": true,
+  "version": "0.0.0",
   "name": "docker-svgr",
+  "main": "index.js",
+  "bin": {
+    "docker-svgr": "src/transform.js"
+  },
   "repository": "nju33/docker-svgr",
   "author": "nju33 <nju33.ki@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@svgr/core": "^4.2.0",
+    "js-yaml": "^3.13.1",
     "prettier": "^1.17.1",
     "yargs": "^13.2.4"
   },
